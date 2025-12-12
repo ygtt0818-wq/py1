@@ -1,0 +1,65 @@
+body {
+    background: #fdf6ff;
+    font-family: "Poppins", "Microsoft JhengHei", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #7ed6df, #f9ca24);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2.6rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.cute-python {
+    width: 150px;
+    margin-top: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.container {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff9ff3;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #f368e0;
+    transform: scale(1.05);
+}
